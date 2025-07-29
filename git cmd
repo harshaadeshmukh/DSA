@@ -1,0 +1,26 @@
+-- git status
+
+✅ 2. Stage the files
+
+-- git add .
+Or to stage only a specific file:
+git add string/new_solution.cpp
+
+
+✅ 3. Commit the changes
+
+-- git commit -m "XYZ"
+Use a meaningful commit message.
+
+✅ 4. Push to GitHub
+If you're on master:
+
+-- git push
+
+If you're on main:
+-- git push origin main
+
+✅ Summary Cheat Sheet
+git add .
+git commit -m "Your message"
+git push
