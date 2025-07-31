@@ -1,7 +1,8 @@
 #include<iostream>
 #include<bits/stdc++.h>
 using namespace std;
-
+// time complexity : O(n*log(m))
+// space complexity : O(1)
 bool foundElementInMatrix(vector<int> &arr , int target)
 {
     int low = 0;
@@ -27,6 +28,8 @@ bool foundElementInMatrix(vector<int> &arr , int target)
     return false;
 }
 
+// time complexity : O(n*log(m))
+// space complexity : O(1)
 bool inMatrixElementFound(vector<vector<int>> &mat , int target)
 {
     int n = mat.size();
