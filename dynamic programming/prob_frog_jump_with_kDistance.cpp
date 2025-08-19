@@ -1,7 +1,5 @@
 //basically in this probram it is similar to frog jump like we can jump 1 or 2 times
 // but here we have to jump up to k distance
-//Example: heights = [10, 30, 40, 50, 20], k = 2 o/p : 30
-// The frog can jump from 0 to 1, 2 (up to k distance)
 
 #include<iostream>
 #include<bits/stdc++.h>
@@ -53,6 +51,7 @@ int frogJumpWithKDistance2(vector<int> &heights, int k)
 
     for(int i =1;i<n;i++)
     {
+        dp[i] = INT_MAX; // Initialize with a large value
         for(int j = 1 ; j<=k ; j++)
         {
             if(i - j >= 0)
