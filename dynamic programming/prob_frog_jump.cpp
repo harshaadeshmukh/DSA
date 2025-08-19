@@ -9,6 +9,7 @@ Input: heights = [30, 10, 60, 10, 60, 50]
 Output: 40
 */
 
+
 #include<iostream>
 #include<bits/stdc++.h>
 using namespace std;
@@ -87,6 +88,8 @@ int main()
     cout << result << endl;
 
     int result2 = frogJumpSolution2(heights);
+
+    cout << result2 << endl;
 
     return 0;
 }

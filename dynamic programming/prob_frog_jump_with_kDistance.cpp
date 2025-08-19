@@ -12,6 +12,7 @@ int solve(vector<int> &heights, int n, int k , vector<int> &dp)
     return 0;
    }
 
+   
    if(dp[n] != -1)
    {
        return dp[n]; // Return the cached result
