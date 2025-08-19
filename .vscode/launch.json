@@ -2,6 +2,13 @@
   "version": "0.2.0",
   "configurations": [
     {
+      "type": "java",
+      "name": "DemoWithoutMutex",
+      "request": "launch",
+      "mainClass": "DemoWithoutMutex",
+      "projectName": "leetcode_4345aa2f"
+    },
+    {
       "name": "C/C++ Runner: Debug Session",
       "type": "cppdbg",
       "request": "launch",
