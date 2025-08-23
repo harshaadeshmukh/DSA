@@ -24,3 +24,30 @@ If you're on main:
 git add .
 git commit -m "Your message"
 git push
+
+
+
+/*
+Step-by-Step Breakdown:
+1. #ifndef HEADER_NAME_H
+
+Checks: "Is HEADER_NAME_H NOT defined?"
+If TRUE: Continue to next line
+If FALSE: Skip to #endif
+
+2. #define HEADER_NAME_H
+
+Defines the macro HEADER_NAME_H
+Marks that this header has been processed
+
+3. // Your code here
+
+Contains the actual class/function definitions
+
+4. #endif
+
+Ends the conditional block
+
+
+
+*/
