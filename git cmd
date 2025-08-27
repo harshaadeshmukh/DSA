@@ -48,6 +48,8 @@ Contains the actual class/function definitions
 
 Ends the conditional block
 
-
-
 */
+
+cmd for 
+compile -  g++ -o output/print.exe print.cpp
+ run - ./output/print.exe 
