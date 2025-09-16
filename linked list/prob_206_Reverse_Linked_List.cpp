@@ -27,6 +27,20 @@ ListNode* reverseLinkedList(ListNode *head)
     return prev;
 }
 
+//recursive approach
+ListNode *reverseLinkedList2(ListNode *head)
+{
+    if(head == NULL || head->next == NULL)
+    {
+        return head;
+    }
+
+    ListNode *newHead = reverseLinkedList2(head->next);
+    head->next->next = head;
+    head->next = NULL;
+
+    return newHead;
+}
 int main()
 {
     int n;
@@ -43,6 +57,18 @@ int main()
     temp.display();
 
     ListNode *result = reverseLinkedList(temp.head);
+
+    while(result!=NULL)
+    {
+        cout << result->data;
+        if(result->next!=NULL){
+            cout << " -> ";
+        }
+        result = result->next;
+    }
+
+    
+    ListNode *result = reverseLinkedList2(temp.head);
 
     while(result!=NULL)
     {
