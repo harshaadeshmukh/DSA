@@ -39,7 +39,7 @@ int editDistanceSol(string word1, string word2)
     dp[0][0] = 0;
 
     for(int i = 1; i <= n; i++) {
-        dp[i][0] = dp[i - 1][0] + 1; // Deleting all characters from word1
+            dp[i][0] = dp[i - 1][0] + 1; // Deleting all characters from word1
     }
 
     for(int j = 1; j <= m; j++) {
@@ -75,5 +75,4 @@ int main()
 
     cout << count << endl;
     return 0;
-
 }
