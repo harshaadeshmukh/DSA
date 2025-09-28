@@ -76,8 +76,6 @@ int main()
     getline(cin,s);
 
     string s2 = frequencySortChar(s);       //by large to small frequency
-
-
     
     cout <<"Approach 1 :" << s2 << endl;
 
@@ -85,3 +83,9 @@ int main()
     cout <<"Approach 2 :" << s3 << endl;
     return 0;
 }
+
+/*
+Example 1:
+Input: s = "tree"
+Output: "eert"
+*/
